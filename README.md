@@ -30,21 +30,20 @@
 
 ```
 EmojiWave/
-├── api/                         # API-related files
+├── api/                         # API files
 │   ├── fast.py                  # FastAPI application server
 │   ├── model.py                 # Model architecture
 │   └── preprocessor.py          # Data preprocessing functions
 ├── models/                      # Directory for trained models
 │   └── final_model_acc99.h5     # Final trained model with 99% accuracy
-├── notebooks/                   # Jupyter notebooks for model development and analysis
+├── notebooks/                   # Jupyter notebooks
 │   ├── Baseline_Model.ipynb     # Notebook for baseline model training
 │   ├── EDA.ipynb                # Exploratory Data Analysis notebook
 │   ├── Preprocess.ipynb         # Notebook for data preprocessing
 │   └── The Best Model.ipynb     # Notebook for fine-tuning the best model
-├── outputs/                     # Directory for storing model output and visualizations
-│   └── plots/                   # Plots and visuals generated from the model
-│       ├── baseline.jpeg        # Visualization of baseline model results
-│       └── best_model.jpeg      # Visualization of best model results
+├── outputs/plots/               # Directory for storing model output
+│    ├── baseline.jpeg           # Visualization of baseline model results
+│    └── best_model.jpeg         # Visualization of best model results
 ├── streamlit_app/               # Directory for the Streamlit app
 │   ├── .streamlit/              # Streamlit configuration
 │   │   └── config.toml          # Configuration file for Streamlit app
@@ -52,9 +51,9 @@ EmojiWave/
 │   │   ├── CameraInput.py       # Page for capturing input from camera
 │   │   ├── MoreResources.py     # Page for additional resources
 │   │   └── UploadImage.py       # Page for uploading an image
-│   ├── EmojiWaveLogo.gif        # GIF logo for the app
+│   ├── EmojiWaveLogo.gif        # GIF logo
 │   └── Home.py                  # Main homepage of the Streamlit app
-├── .gitignore                   # Files and directories to be ignored by Git
+├── .gitignore                   # Git ignore rules
 ├── project_summary.txt          # Summary of the project
 ├── README.md                    # Project documentation
 └── requirements.txt             # List of project dependencies
