@@ -1,5 +1,5 @@
 
-# EmojiWave –  When Hands Talk
+# EmojiWave: When Hands Talk
 
 ## 📋 Project Overview
 
