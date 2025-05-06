@@ -25,32 +25,41 @@
 2. The system processes the image, detecting hand gestures.
 3. The recognized gesture is matched to an emoji and displayed on the screen.
 
-# Project Structure
 
-``` plaintext
+## Project Structure
 
-EmojiWave/
-├── __pycache__/
-├── fast.py                     # FastAPI application server
-├── model.py                    # Contains the model architecture
-├── preprocess.py               # Data preprocessing functions
-├── notebooks/                  # Jupyter notebooks
-│   ├── final_model_acc99.h5    # Final trained model with 99% accuracy
-│   ├── Baseline_Model.ipynb    # Notebook for baseline model training
-│   ├── EDA.ipynb               # Exploratory Data Analysis notebook
-│   ├── PreProcess.ipynb        # Notebook for data preprocessing
-│   ├── Best_Model.ipynb        # Notebook for fine-tuning the best model
-│   └── plots/                  # Directory for storing plots
-│       ├── baseline_model.jpeg  # Visualization of baseline model results
-│       └── best_model.jpeg      # Visualization of best model results
-├── streamlit_app/              # Directory for Streamlit application
-│   ├── pages/                  # Subdirectory for app pages
-│   ├── EmojiWave-unscreen-1.gif # GIF logo
-│   └── Home.py                 # Main home page of the Streamlit app
-├── requirements.txt            # List of project dependencies
-├── .gitignore                  # Files and directories to be ignored by Git
-└── README.md                   # project documentation
 ```
+EmojiWave/
+├── api/                         # API-related files
+│   ├── fast.py                  # FastAPI application server
+│   ├── model.py                 # Model architecture
+│   └── preprocessor.py          # Data preprocessing functions
+├── models/                      # Directory for trained models
+│   └── final_model_acc99.h5     # Final trained model with 99% accuracy
+├── notebooks/                   # Jupyter notebooks for model development and analysis
+│   ├── Baseline_Model.ipynb     # Notebook for baseline model training
+│   ├── EDA.ipynb                # Exploratory Data Analysis notebook
+│   ├── Preprocess.ipynb         # Notebook for data preprocessing
+│   └── The Best Model.ipynb     # Notebook for fine-tuning the best model
+├── outputs/                     # Directory for storing model output and visualizations
+│   └── plots/                   # Plots and visuals generated from the model
+│       ├── baseline.jpeg        # Visualization of baseline model results
+│       └── best_model.jpeg      # Visualization of best model results
+├── streamlit_app/               # Directory for the Streamlit app
+│   ├── .streamlit/              # Streamlit configuration
+│   │   └── config.toml          # Configuration file for Streamlit app
+│   ├── pages/                   # Subdirectory for Streamlit app pages
+│   │   ├── CameraInput.py       # Page for capturing input from camera
+│   │   ├── MoreResources.py     # Page for additional resources
+│   │   └── UploadImage.py       # Page for uploading an image
+│   ├── EmojiWaveLogo.gif        # GIF logo for the app
+│   └── Home.py                  # Main homepage of the Streamlit app
+├── .gitignore                   # Files and directories to be ignored by Git
+├── project_summary.txt          # Summary of the project
+├── README.md                    # Project documentation
+└── requirements.txt             # List of project dependencies
+```
+
 
 
 ## 💻 How to Run the Project Locally
