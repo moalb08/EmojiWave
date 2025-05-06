@@ -9,11 +9,10 @@ Our project is an intelligent interactive system that recognizes hand gestures i
 # Why This Project Matters
 Interacting with machines should be natural, inclusive, and touchless when needed. Our system offers an alternative interaction model that is not only fun, but potentially life changing for users with accessibility needs, presenters, and more.
 
-# Team Members
+# My Team
 - Noura Alzahrani
 - Norah Alharbi
 - Amal Alahmadi
-- Mohammed Albaijan
 - Yousif Alnasser
 
 # Tech Stack
