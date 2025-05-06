@@ -22,10 +22,13 @@
 
 ## 📸 How It Works
 1. **Upload an image** or use your **webcam** for gesture recognition.
-2. The system processes the image or video stream, detecting hand gestures.
+2. The system processes the image, detecting hand gestures.
 3. The recognized gesture is matched to an emoji and displayed on the screen.
 
 # Project Structure
+
+``` plaintext
+
 EmojiWave/
 ├── __pycache__/
 ├── fast.py                     # FastAPI application server
@@ -47,6 +50,7 @@ EmojiWave/
 ├── requirements.txt            # List of project dependencies
 ├── .gitignore                  # Files and directories to be ignored by Git
 └── README.md                   # project decumention
+```
 
 
 ## 💻 How to Run the Project Locally
@@ -78,6 +82,4 @@ Special thanks to me amazing team behind EmojiWave:
 - [**Noura Alzahrani**](https://github.com/Nourii-24)
 - [**Norah Alharbi**](https://github.com/NourahNH)
 - [**Amal Alahmadi**](https://github.com/amal-Stu)
-- [**Yousif Alnasser**]
-
----
+- [**Yousif Alnasser**](https://github.com/ai-yousif)
