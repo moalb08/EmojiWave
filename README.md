@@ -9,7 +9,7 @@
 - **Real-time emoji feedback:** Detects hand gestures via webcam or uploaded images and displays corresponding emojis.
 - **Interactive experience:** Fun and personal interaction without the need for touch or voice inputs.
 - **Portable deployment:** Easily deployed via Docker for seamless use across different environments.
-- **Live Demo:** Try the app in action at [EmojiWave - Live Demo](https://emojiwaveapp.streamlit.app/)
+- **Live Demo:** Try EmojiWave in here (https://emojiwaveapp.streamlit.app/)
 
 ## 🔧 Tech Stack
 - **Python**
@@ -49,7 +49,7 @@ EmojiWave/
 │   └── Home.py                 # Main home page of the Streamlit app
 ├── requirements.txt            # List of project dependencies
 ├── .gitignore                  # Files and directories to be ignored by Git
-└── README.md                   # project decumention
+└── README.md                   # project documentation
 ```
 
 
@@ -77,7 +77,7 @@ To run the app on your local machine, follow these steps:
 
 ## 👥 Acknowledgments
 
-Special thanks to me amazing team behind EmojiWave:
+Shoutout to my incredible team for making EmojiWave happen:
 
 - [**Noura Alzahrani**](https://github.com/Nourii-24)
 - [**Norah Alharbi**](https://github.com/NourahNH)
