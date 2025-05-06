@@ -89,7 +89,7 @@ To run the app on your local machine, follow these steps:
 
 Shoutout to my incredible team for making EmojiWave happen:
 
-- [**Noura Alzahrani**](https://github.com/Nourii-24)
+- [**Noura Alzahrani**](https://github.com/noura-alzahrani)
 - [**Norah Alharbi**](https://github.com/NourahNH)
 - [**Amal Alahmadi**](https://github.com/amal-Stu)
 - [**Yousif Alnasser**](https://github.com/ai-yousif)
