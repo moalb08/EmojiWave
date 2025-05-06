@@ -1,5 +1,5 @@
 
-# EmojiWave: When Hands Talk
+# EmojiWave: Transforming Hand Gestures into Emojis
 
 ## 📋 Project Overview
 
