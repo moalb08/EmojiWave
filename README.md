@@ -9,7 +9,9 @@
 - **Real-time emoji feedback:** Detects hand gestures via webcam or uploaded images and displays corresponding emojis.
 - **Interactive experience:** Fun and personal interaction without the need for touch or voice inputs.
 - **Portable deployment:** Easily deployed via Docker for seamless use across different environments.
-- **Live Demo:** Try EmojiWave in here (https://emojiwaveapp.streamlit.app/)
+
+## 🎬Live Demo
+ Try EmojiWave (https://emojiwaveapp.streamlit.app/)
 
 ## 🔧 Tech Stack
 - **Python**
