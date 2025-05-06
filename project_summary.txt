@@ -13,7 +13,7 @@ Streamlit, and testing across multiple environments.
 We believe technology should adapt to everyone.
 Not all humans can use touch screens or speech interfaces — whether due to disability, physical constraints, or context (like driving or presenting).
 
-This project explores the power of silent, touchless communication with machines, using just a hand gesture. That simple action becomes a universal language one that can be 
+This project explores the power of silent, touchless communication with machines, using just a hand gesture. That simple action becomes a universal language one that can be
 translated into emotional context via emojis, or even control systems in future versions.
 
 Imagine:
@@ -53,26 +53,26 @@ After experimentation, we found that training from scratch gave us the best resu
 -Training Preprocessing
 -Each had different noise profiles, lighting, and gesture variations, so we tailored the pipeline carefully.
 
-#Challenges & How We Solved Them 
+#Challenges & How We Solved Them
 -Challenge: Real images from the camera looked nothing like the training data
 -Our Approach: We designed custom preprocessing for each source (upload, webcam, training) to reduce noise, standardize shapes, and normalize the image
 
--Challenge: Lack of diverse training data	
+-Challenge: Lack of diverse training data
 -Our Approach: We used augmentation, manual curation, and preprocessing to enhance data consistency
 
--Challenge: Gesture prediction was stuck (e.g., always predicting ✊)	
+-Challenge: Gesture prediction was stuck (e.g., always predicting ✊)
 -Our Approach: We fixed bounding box detection, added margin, inverted grayscale, and added thresholding logic
 
--Challenge: Time constraint (8 days only)	
+-Challenge: Time constraint (8 days only)
 -Our Approach: We divided tasks, communicated actively, and kept scope clear and focused
 
--Challenge: Choosing the right model architecture	
+-Challenge: Choosing the right model architecture
 -Our Approach: We iterated and tested both pre-trained and custom models; ultimately stuck with the simpler but more accurate custom CNN
 
--Challenge: Streamlit was new for us	
+-Challenge: Streamlit was new for us
 -Our Approach: We learned it fast and successfully built an interactive experience with live camera and emoji feedback
 
--Challenge: Deployment issues	
+-Challenge: Deployment issues
 -Our Approach: We deployed to both Docker and Streamlit Cloud, ensuring fast response and reliability
 
 #What Makes This Special
@@ -103,4 +103,3 @@ We built this project under tight deadlines, driven by curiosity and the desire 
 
 #Final Words
 This isn’t just a student project. It’s a tiny glimpse into a world where machines understand you without needing you to touch, type, or talk. That’s powerful and fun.
-
